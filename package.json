@@ -1,6 +1,6 @@
 {
   "name": "diax-dialect",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Node.JS API for making requests to Diax Dialect",
   "main": "index.js",
   "scripts": {

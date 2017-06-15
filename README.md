@@ -11,7 +11,11 @@ NPM module for using the Diax Dialect API.
 
 The node module can be installed by typing `npm install diax-dialect --save` in your project directory. Then you can include the module with `const Dialect = require('diax-dialect');`.
 
-Then to create your Dialect instance, declare a global variable without initializing it (`var myDialect;`) and then call: 
+Then to create your Dialect instance, declare a global variable without initializing it:
+```javascript
+var myDialect;
+```
+and then call: 
 ```javascript
 Dialect.create("my-token", function(thisDialect) { myDialect = thisDialect; });
 ```
@@ -44,5 +48,9 @@ myDialect.train("Hello", "Hi there!");
 ```
 
 ## Release History
+
+* 1.0.2 Updated README.md
+
+* 1.0.1 Updated README.md
 
 * 1.0.0 Initial release
